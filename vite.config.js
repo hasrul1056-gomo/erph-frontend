@@ -8,7 +8,7 @@ export default defineConfig({
     allowedHosts:['arrivals-sleep-transportation-duration.trycloudflare.com'],
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://erph-backend-pujs.onrender.com',
         changeOrigin: true,
       }
     }
